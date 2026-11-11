@@ -1,0 +1,19 @@
+# CMake build output
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Compiled binaries and libraries
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Local editor settings
+.vscode/settings.json
+.idea/
