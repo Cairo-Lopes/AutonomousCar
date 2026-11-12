@@ -58,10 +58,10 @@ public:
             }
         }
 
-        // Randomize biases in [-1.0, 1.0]
+        // Randomize biases in [-0.01, 0.01]
         for (float &b : biases)
         {
-            b = ((float)rand() / RAND_MAX) * 2.0f - 1.0f;
+            b = ((float)rand() / RAND_MAX) * 0.02f - 0.01f;
         }
     }
 
